@@ -23,7 +23,7 @@ class Config {
    *   Thrown when the JSON file couldn't be read or is invalid.
    */
   protected static function init() {
-    self::$type2config = json_decode(file_get_contents(__DIR__ . '../../custom_modules.json'), TRUE);
+    self::$type2config = json_decode(file_get_contents(__DIR__ . '/../custom_modules.json'), TRUE);
 
     if (empty(self::$type2config)) {
       throw new Exception('Unable to parse custom modules list, invalid JSON?');
