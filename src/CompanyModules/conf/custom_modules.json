@@ -1,0 +1,10 @@
+{
+  "company-d8module": {
+    "path": "web/modules/company/",
+    "prefix": "d8modules/"
+  },
+  "company-d7module": {
+    "path": "sites/all/modules/company/",
+    "prefix": "d7modules/"
+  }
+}
